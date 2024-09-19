@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tailwind Playground</title>
+        <link rel="stylesheet" href="../dist/output.css" />
+    </head>
+    <body>
+        <div
+            class="container mx-autox min-w-full w-full fixed h-lvh bg-no-repeat bg-center bg-cover"
+            style="
+                background-image: url(https://images.unsplash.com/photo-1723886738851-db052605153b?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            "
+        >
+            <h1
+                class="text-4xl text-red-500 hover:text-red-700 font-extrabold underline underline-offset-1"
+            >
+                Title
+            </h1>
+            <p class="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                corrupti tempora reiciendis sit assumenda alias similique
+                perferendis obcaecati itaque quae! Fugiat odit ex placeat cum
+                vero officia quasi vitae aut!s
+            </p>
+            <ul class="border p-3 border-red-300 first:bg-red-500">
+                <li class="text-blue-500">111</li>
+                <li class="text-green-500">222</li>
+                <li class="text-gray-500">333</li>
+                <li>444</li>
+            </ul>
+            <div class="bg-gradient-to-b from-slate-300 to-blue-300 h-96">
+                <button
+                    class="w-96 h-36 bg-green-300 hover:bg-green-100 transition-all duration-700 hover:animate-bounce"
+                >
+                    Animation
+                </button>
+
+                <button
+                    class="w-96 h-36 bg-green-300 hover:bg-green-100 transition-all duration-700 hover:animate-bounce bg-primary"
+                >
+                    second
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

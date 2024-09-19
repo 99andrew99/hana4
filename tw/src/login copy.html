@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>로그인</title>
+        <link rel="stylesheet" href="../dist/output.css" />
+    </head>
+    <body class="flex justify-center items-center w-screen h-screen">
+        <div
+            class="w-96 h-1/4 border flex flex-col items-center justify-between py-3 border-black rounded-lg"
+        >
+            <p class="font-extrabold text-3xl">Login</p>
+
+            <form class="w-full">
+                <div class="w-full flex justify-between items-center px-3">
+                    <label
+                        for="price"
+                        class="block text-sm font-medium leading-6 text-gray-900"
+                        >Email</label
+                    >
+                    <div class="relative mt-2 rounded-md shadow-sm">
+                        <div
+                            class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+                        ></div>
+                        <input
+                            type="text"
+                            name="price"
+                            id="price"
+                            class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                            placeholder="email@email.com"
+                        />
+                    </div>
+                </div>
+
+                <div class="w-full flex justify-between items-center px-3">
+                    <label
+                        for="price"
+                        class="block text-sm font-medium leading-6 text-gray-900"
+                        >Password</label
+                    >
+                    <div class="relative mt-2 rounded-md shadow-sm">
+                        <div
+                            class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
+                        ></div>
+                        <input
+                            type="text"
+                            name="price"
+                            id="price"
+                            class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                            placeholder="password"
+                        />
+                    </div>
+                </div>
+            </form>
+
+            <div class="w-full flex justify-between items-center px-3">
+                <a class="text-sky-400 underline" href="#">Regist</a>
+                <button
+                    class="text-white shadow-lg bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-base font-bold px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                    Login
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

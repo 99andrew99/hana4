@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    input.inp {
+        @apply px-2 py-1 border rounded-md w-full focus:outline-none focus:ring-0 focus:border-sky-500;
+    }
+}
+@layer components {
+}
+
+@layer utilities {
+    .text-rrr {
+        color: blue;
+    }
+}
